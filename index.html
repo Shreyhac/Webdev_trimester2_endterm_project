@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Recommender</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Movie Recommender</h1>
+      <div class="made-by-container">
+        <img src="scaler.png" alt="Header Image" class="header-image">
+        <p class="made-by">Made by Shreyansh Arora (24BCS10252)</p>
+      </div>
+    </div>
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Search for a movie...">
+      <select id="genre-select">
+        <option value="popular">Popular</option>
+        <option value="18">Drama</option>
+        <option value="12">Adventure</option>
+        <option value="10751">Family</option>
+        <option value="35">Comedy</option>
+        <option value="27">Horror</option>
+        <option value="10749">Romance</option>
+        <option value="9648">Mystery</option>
+      </select>
+      <button id="search-button">Search</button>
+    </div>
+    <div id="movie-list" class="movie-list"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
