@@ -5,7 +5,7 @@ const movieList = document.getElementById("movie-list")
 
 const tmdbApiKey = "810a85b73a9cb28fa74f2b5af994044b"
 const omdbApiKey = "32c728c2"
-const youtubeApiKey = "AIzaSyCyxo2_A7QU9A2YKaGqCnjT4W0YHZlHpEk"
+const youtubeApiKey = "AIzaSyDMuugb0DVBoqN6eLpXQHayR5wxNg-prSY"
 
 async function fetchMovies(query = "", genre = "") {
   let url
